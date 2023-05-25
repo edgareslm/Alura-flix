@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useContext } from 'react';
+import { VideosContext } from '../../Context/Context'; 
 import Slider from 'react-slick';
 import VideoCard from '../VideoCard';
 import Box from '@mui/material/Box'; 
 import Typography from '@mui/material/Typography';
-
 
 const style = {
     width:" 100%",
@@ -50,6 +50,11 @@ const MultipleItems = () => {
       }
     ]
   };
+
+  let {videos} = useContext(VideosContext) ;
+
+  console.log(videos)
+
   return (
     <Fragment>
       <Box sx={style}>

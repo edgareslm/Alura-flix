@@ -2,12 +2,17 @@
   "videos" : [
     {
       "id": 1,
-      "titulo": "Alura",
-      "linkVideo": "https://www.youtube.com/watch?v=2lOhk3DOK8s&ab_channel=FIAWorldEnduranceChampionship",
-      "linkImage": "https://img.youtube.com/vi/2lOhk3DOK8s/maxresdefault.jpg",
-      "categoria": "WEC",
-      "descripcion": "Lo mejor de la clasificación del WEC en Spa-Francorchamps",
-      "codigoSeguridad": "wechqspa2023"
+      "title": "Alura",
+      "link": "https://youtu.be/UuAX5azcvDQ",
+      "image": "https://i.ytimg.com/vi_webp/UuAX5azcvDQ/maxresdefault.webp",
+      "category": "WEC"
+    }
+  ],
+  "Category": [
+    {
+      "id": 1,
+      "title": "Front End",
+      "color": "#777"
     }
   ]
 }
